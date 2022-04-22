@@ -9,10 +9,10 @@ function Short(props) {
   };
   return (
     <div className="relative md:flex my-5 first:mt-10 last:mb-40">
-      <div className="  w-[371px] rounded-2xl h-[661px] bg-slate-700  snap-center relative shadow">
+      <div className=" w-full  md:w-[371px] rounded-2xl h-[661px] bg-slate-700  snap-center relative shadow">
         <object
           aria-label="short"
-          className="w-[371px] h-[661px] float-none clear-both rounded-2xl"
+          className=" w-full md:w-[371px] h-[661px] float-none clear-both rounded-2xl"
           data={props.urlYoutube}
         ></object>
         <div className=" absolute bottom-0 text-white w-full">
