@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 function Short(props) {
   const [IsShowToggle, setIsShowToggle] = useState(false);
   const [CapChoose, setCapChoose] = useState("");
@@ -11,6 +11,7 @@ function Short(props) {
     <div className="relative md:flex my-5 first:mt-10 last:mb-40">
       <div className="  w-[371px] rounded-2xl h-[661px] bg-slate-700  snap-center relative shadow">
         <object
+          aria-label="short"
           className="w-[371px] h-[661px] float-none clear-both rounded-2xl"
           data={props.urlYoutube}
         ></object>
